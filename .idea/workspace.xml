@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4795408-81fa-4036-95ce-834bf316d438" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PJk9us3PJzNk2uCpUNgLhvQ7Va" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hantai" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\shixi\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\jh\img" />
+      <recent name="E:\project\shixi\img" />
+      <recent name="E:\project\shixi\js" />
+      <recent name="E:\project\shixi\css" />
+      <recent name="E:\project" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4795408-81fa-4036-95ce-834bf316d438" name="Default Changelist" comment="" />
+      <created>1564548129659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564548129659</updated>
+      <workItem from="1564548130937" duration="17371000" />
+      <workItem from="1564620103365" duration="19678000" />
+      <workItem from="1564706003537" duration="268000" />
+      <workItem from="1564706284018" duration="4000" />
+      <workItem from="1564706345766" duration="25000" />
+      <workItem from="1564706382783" duration="17261000" />
+      <workItem from="1564820527165" duration="599000" />
+      <workItem from="1564965798828" duration="21512000" />
+      <workItem from="1565051847955" duration="23068000" />
+      <workItem from="1565137829291" duration="16508000" />
+      <workItem from="1565224741004" duration="7045000" />
+      <workItem from="1565310751419" duration="6012000" />
+      <workItem from="1565599188738" duration="55000" />
+      <workItem from="1565599275698" duration="93000" />
+      <workItem from="1565599443452" duration="630000" />
+      <workItem from="1565656831737" duration="27000" />
+      <workItem from="1565679800988" duration="1714000" />
+      <workItem from="1565763741325" duration="360000" />
+      <workItem from="1565764138452" duration="188000" />
+      <workItem from="1565764344319" duration="5825000" />
+      <workItem from="1565829590356" duration="11000" />
+      <workItem from="1565829696415" duration="4604000" />
+      <workItem from="1565915722859" duration="608000" />
+      <workItem from="1565916841529" duration="4474000" />
+      <workItem from="1566175715404" duration="10000" />
+      <workItem from="1566539577041" duration="13036000" />
+      <workItem from="1566779410128" duration="26805000" />
+      <workItem from="1566865883274" duration="18047000" />
+      <workItem from="1566952319841" duration="6411000" />
+      <workItem from="1567125417392" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

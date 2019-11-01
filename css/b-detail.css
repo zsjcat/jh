@@ -1,0 +1,355 @@
+html{
+    font-family: Arial, serif;
+    width: 100%;
+}
+body{
+    width: 100%;
+}
+div{
+    display: block;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    margin: 0;
+}
+
+/*导航*/
+.navbar{
+    height: 96px;
+    background-color: #fff;
+    margin-bottom:0;
+}
+.navbar-nav{
+    margin-top:35px;
+}
+.navbar-header{
+    height: 90px;
+    margin-top: 5px;
+}
+@media (max-width: 768px) {
+    .navbar-brand{
+        padding: 15px 40px;
+    }
+}
+.navbar-collapse ul{
+    margin-left: 40px;
+}
+@media (max-width: 768px) {
+    .navbar-collapse ul{
+        left: -41px;
+        background-color: white;
+        position: absolute;
+        width: 102%;
+        top: 58px;
+        z-index: 9999;
+    }
+}
+.navbar-collapse ul li{
+    margin-left: 36px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #9cc813;
+    background-color: transparent;
+    border-bottom: 2px solid #9cc813;
+}
+.language{
+    position: absolute;
+    right: 15%;
+    top: 0;
+}
+.language a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #333;
+}
+.language a:hover{
+    color: #fea41f;
+}
+.language img{
+    margin-right: 10px;
+    width: 15px;
+}
+
+.glyphicon-search{
+    color: black;
+}
+
+
+/*banner*/
+#banner{
+    text-align:center;
+    color: white;
+    position: relative;
+}
+@media (min-width: 1200px) {
+    .banner-tips {
+        position: absolute;
+        font-weight: bold;
+        top: 25%;
+        left: 15%;
+    }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .banner-tips {
+        position: absolute;
+        font-weight: bold;
+        top: 55%;
+        left: 5%;
+    }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+    .banner-tips {
+        position: absolute;
+        font-weight: bold;
+        top: 65%;
+        left: 2%;
+    }
+}
+@media (max-width: 768px) {
+    .guanyu{
+        font-size:16px;
+    }
+    .banner-tips{
+        position: absolute;
+        font-weight: bold;
+        top:30%;
+        left: 45%;
+    }
+}
+.guanyu{
+    font-size:20px;
+}
+
+
+/*title*/
+#title{
+    background-color: #eee;
+    height: 40px;
+    padding: 0 10px;
+}
+.title-right{
+    padding-top: 10px;
+}
+.title-right a{
+    color: #333;
+    text-decoration: none;
+}
+.title-right a:hover{
+    color: #9cc813;
+}
+.glyphicon-chevron-right{
+    font-size: 10px;
+}
+
+
+
+/*main*/
+
+.form1 h3{
+    font-weight: bold;
+}
+
+
+
+#main{
+    margin-top: 80px;
+}
+#main>div>span{
+    width:80px;
+    border-top:3px solid #9cc813;
+    display: block;
+}
+#main h4{
+    color: #fea41f;
+}
+.media-body h3{
+    font-weight: bold;
+}
+.media-body .btn{
+    background-color: #fea41f;
+    color: white;
+    width: 100%;
+    margin-top: 30px;
+}
+.media-heading{
+    margin-top: 40px;
+}
+.touxiang img{
+    margin-right: 20px;
+}
+.form1 .touxiang img{
+    margin: 20px ;
+}
+
+#form2{
+    margin-top: 20px;
+}
+.thumbnail{
+    border: none;
+    background-color: #eff2f7;
+}
+.caption .btn{
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-top: 20px;
+    color: #333;
+}
+.caption .btn:hover{
+    color: #fea41f;
+}
+
+
+
+.form{
+    position: relative;
+}
+.icon-play{
+    transition: all 0.6s;
+}
+
+@media (min-width: 1200px) {
+    .icon-play{
+        position: absolute;
+        left: 45%;
+        top: 45%;
+        font-size: 20px;
+        color: white;
+    }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .icon-play{
+        position: absolute;
+        left: 50%;
+        top: 45%;
+        font-size: 20px;
+        color: white;
+    }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+    .icon-play{
+        position: absolute;
+        left: 55%;
+        top: 45%;
+        font-size: 20px;
+        color: white;
+    }
+}
+@media (max-width: 768px) {
+    .icon-play{
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        font-size: 20px;
+        color: white;
+    }
+}
+.icon-play:hover{
+    transform: scale(1.2);
+    color: #fea41f;
+}
+.pro img{
+    padding-left: 15%;
+}
+@media (max-width: 768px) {
+    .pro img{
+        padding-left: 0;
+    }
+}
+
+
+.form p{
+    font-size: 23px;
+    margin: 10px 0;
+}
+.form3 .pro img{
+    padding-left: 35%;
+    margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+    .form3 .pro img{
+        padding-left: 0;
+    }
+}
+.btn-warning{
+    width: 200px;
+    background-color: #fea41f;
+    margin-top: 30px;
+}
+#comment>div{
+    margin-top: 30px;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+#comment h3{
+    color: #fea41f;
+    margin-left: -15px;
+}
+#comment h5{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.glyphicon-heart,.glyphicon-heart-empty{
+    font-size: 20px;
+    color: #fea41f;
+}
+
+
+
+
+
+
+
+
+
+
+/*脚注*/
+.foot{
+    background-color: #f5f5f5;
+    padding-top: 40px;
+}
+.foot a{
+    text-decoration: none;
+}
+.foot a:hover{
+    color:#9cc813 ;
+}
+.foot p{
+    color: #333;
+}
+.foot ul a{
+    color: #333;
+    text-decoration: none;
+}
+.foot ul li{
+    line-height:28px;
+}
+.foot1>p{
+    margin:30px 0;
+}
+.last{
+    background-color: #f5f5f5;
+    padding: 0 120px;
+    margin-top: 80px;
+    font-size: 14px;
+    text-align: center;
+}
+.last p{
+    border-top:1px solid #ccc;
+    line-height: 50px;
+    margin-left: -5px;
+    margin-bottom: 0;
+}
+@media (max-width: 768px) {
+    .last{
+        padding: 0 30px;
+    }
+    .foot{
+        text-align: center;
+    }
+}

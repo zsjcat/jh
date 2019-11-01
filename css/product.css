@@ -1,0 +1,285 @@
+html{
+    font-family: Arial, serif;
+    width: 100%;
+}
+body{
+    width: 100%;
+}
+div{
+    display: block;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    margin: 0;
+}
+/*导航*/
+.navbar{
+    height: 96px;
+    background-color: #fff;
+    margin-bottom:0;
+}
+.navbar-nav{
+    margin-top:35px;
+}
+.navbar-header{
+    height: 90px;
+    margin-top: 5px;
+}
+@media (max-width: 768px) {
+    .navbar-brand{
+        padding: 15px 40px;
+    }
+}
+.navbar-collapse ul{
+    margin-left: 40px;
+}
+@media (max-width: 768px) {
+    .navbar-collapse ul{
+        left: -41px;
+        background-color: white;
+        position: absolute;
+        width: 102%;
+        top: 58px;
+        z-index: 9999;
+    }
+}
+.navbar-collapse ul li{
+    margin-left: 36px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #9cc813;
+    background-color: transparent;
+    border-bottom: 2px solid #9cc813;
+}
+.language{
+    position: absolute;
+    right: 15%;
+    top: 0;
+}
+.language a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #333;
+}
+.language a:hover{
+    color: #fea41f;
+}
+.language img{
+    margin-right: 10px;
+    width: 15px;
+}
+
+.glyphicon-search{
+    color: black;
+}
+
+
+/*banner*/
+#banner{
+    text-align:center;
+    color: white;
+    position: relative;
+}
+@media (min-width: 1200px) {
+    .banner-tips {
+        position: absolute;
+        font-weight: bold;
+        top: 28%;
+        left: 30%
+    }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .banner-tips {
+        position: absolute;
+        font-weight: bold;
+        top: 55%;
+        left: 28%;
+    }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+    .banner-tips {
+        position: absolute;
+        font-weight: bold;
+        top: 65%;
+        left: 20%;
+    }
+}
+@media (max-width: 768px) {
+    .guanyu{
+        font-size:16px;
+    }
+    .banner-tips{
+        position: absolute;
+        font-weight: bold;
+        top:25%;
+        left: 45%;
+    }
+}
+.guanyu{
+    font-size:20px;
+}
+
+
+/*title*/
+#title{
+    background-color: #eee;
+    height: 40px;
+    padding: 0 10px;
+}
+.title-right{
+    padding-top: 10px;
+}
+.title-right a{
+    color: #333;
+    text-decoration: none;
+}
+.title-right a:hover{
+    color: #9cc813;
+}
+.glyphicon-chevron-right{
+    font-size: 10px;
+}
+
+
+
+/*main*/
+#main{
+    margin-top: 40px;
+}
+#main>div>span{
+    width:80px;
+    border-top:3px solid #9cc813;
+    display: block;
+}
+#main h2{
+    font-weight: bold;
+}
+.main-title{
+    margin-top: 30px;
+}
+.main-title a{
+    text-decoration: none;
+    color: #333;
+}
+.main-title a:hover{
+    color: #fea41f;
+}
+
+
+#popular h2{
+    font-weight: bold;
+}
+#popular>div>span{
+    width:80px;
+    border-top: 3px solid #9cc813;
+    display: block;
+    margin-left: calc(50% - 40px);
+}
+.pop>.row{
+    margin-bottom: 25px;
+    padding-left: 40px;
+}
+.pro{
+    padding:0;
+    border: 1px solid #ccc;
+}
+.pop>div{
+
+    padding: 10px;
+}
+.pop a{
+    text-decoration: none;
+    color: #333;
+}
+.pop a:hover{
+    color: #fea41f;
+}
+.pro img{
+    width: 100%;
+    border-bottom: 3px solid #9cc813;
+}
+.img-tips{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+
+/*fenye*/
+#fenye{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#fenye li a{
+    margin-left: 20px;
+    color: #333;
+}
+#fenye li a:hover{
+    color: white;
+    background-color: #fea41f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*脚注*/
+.foot{
+    background-color: #f5f5f5;
+    padding-top: 40px;
+}
+.foot a{
+    text-decoration: none;
+}
+.foot a:hover{
+    color:#9cc813 ;
+}
+.foot p{
+    color: #333;
+}
+.foot ul a{
+    color: #333;
+    text-decoration: none;
+}
+.foot ul li{
+    line-height:28px;
+}
+.foot1>p{
+    margin:30px 0;
+}
+.last{
+    background-color: #f5f5f5;
+    padding: 0 120px;
+    margin-top: 80px;
+    font-size: 14px;
+    text-align: center;
+}
+.last p{
+    border-top:1px solid #ccc;
+    line-height: 50px;
+    margin-left: -5px;
+    margin-bottom: 0;
+}
+@media (max-width: 768px) {
+    .last{
+        padding: 0 30px;
+    }
+    .foot{
+        text-align: center;
+    }
+}
